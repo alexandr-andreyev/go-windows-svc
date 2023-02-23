@@ -3,9 +3,9 @@ package app
 import "time"
 
 // The wrapper of your app
-func yourApp(s server) {
+func proskladSenderApp(s server) {
 
-	s.winlog.Info(1, "In app.yourApp")
+	s.winlog.Info(1, "In app.yourApp") //TODO исправить логи
 
 	// This is just some sample code to do something
 	time.Sleep(1 * time.Second)

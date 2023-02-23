@@ -14,7 +14,7 @@ func Run(wl debug.Log, svcName, sha1ver string) error {
 	}
 
 	// Your service should be launched as a GO routine
-	go yourApp(s)
+	go proskladSenderApp(s)
 
 	return nil
 }
